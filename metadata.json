@@ -11,5 +11,18 @@
         "created_at": "2026-04-22T08:39:16.278Z",
         "updated_at": "2026-04-22T08:39:16.278Z",
         "type": "plugin"
+    },
+    {
+        "id": "UWRk_GnvZw1YL-hwFeNlNxvZ2yW4bNTW",
+        "plugin": "obsidian-project-planner",
+        "language": "zh-cn",
+        "version": "0.8.2",
+        "supported_versions": "0.8.2",
+        "title": "Project Planner",
+        "description": "Project Planner Localization & Tweaks",
+        "hash": "4c6ee3104c6ee3104c6ee3104c6ee310",
+        "created_at": "2026-04-22T08:39:39.512Z",
+        "updated_at": "2026-04-22T08:39:39.512Z",
+        "type": "plugin"
     }
 ]
