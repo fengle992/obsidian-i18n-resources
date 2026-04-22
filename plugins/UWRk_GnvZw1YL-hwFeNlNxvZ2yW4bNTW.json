@@ -1,0 +1,3350 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-project-planner",
+        "version": "1.0.0",
+        "title": "Project Planner",
+        "description": "Project Planner Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "+ Add task",
+                    "target": "+ 添加任务"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add new bucket",
+                    "target": "添加新分组"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🔥",
+                    "target": "🔥"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🔗",
+                    "target": "🔗"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📎",
+                    "target": "📎"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Copy Link",
+                    "target": "复制链接"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Invalid range",
+                    "target": "无效范围"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Set start & due dates",
+                    "target": "设置开始和截止日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No tasks matching your search.",
+                    "target": "未找到匹配的搜索结果。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "All tasks are either completed or already due today.",
+                    "target": "所有任务均已完成或已截止于今日。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Rolled up from subtasks",
+                    "target": "从子任务汇总"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Calculated from effort × rate",
+                    "target": "根据工作量×费率计算"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Calculated from effort completed × rate",
+                    "target": "根据已完成工作量×费率计算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dashboard",
+                    "target": "dashboard"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Dashboard view",
+                    "target": "仪表板视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "gantt",
+                    "target": "gantt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Timeline (Gantt) view",
+                    "target": "时间轴（甘特图）视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "board",
+                    "target": "board"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Board view",
+                    "target": "看板视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "grid",
+                    "target": "grid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Grid view",
+                    "target": "网格视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "uk",
+                    "target": "uk"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "UK (DD/MM/YYYY)",
+                    "target": "英国 (DD/MM/YYYY)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "us",
+                    "target": "us"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "US (MM/DD/YYYY)",
+                    "target": "美国 (MM/DD/YYYY)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "iso",
+                    "target": "iso"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ISO (YYYY-MM-DD)",
+                    "target": "国际标准 (YYYY-MM-DD)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select a project...",
+                    "target": "选择项目..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Show completed",
+                    "target": " 显示已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "planner-board-column planner-board-add-bucket",
+                    "target": "planner-board-column planner-board-add-bucket"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "planner-board-column planner-board-column-unassigned",
+                    "target": "planner-board-column planner-board-column-unassigned"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "planner-date-readonly planner-rolled-up",
+                    "target": "planner-date-readonly planner-rolled-up"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "dashboard-progress-container dashboard-budget-bar",
+                    "target": "dashboard-progress-container dashboard-budget-bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "dashboard-task-modal-content dashboard-cost-report-content",
+                    "target": "dashboard-task-modal-content dashboard-cost-report-content"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "table",
+                    "target": "table"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "thead",
+                    "target": "thead"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tr",
+                    "target": "tr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "th",
+                    "target": "th"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tbody",
+                    "target": "tbody"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "td",
+                    "target": "td"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "small",
+                    "target": "small"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "canvas",
+                    "target": "canvas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tfoot",
+                    "target": "tfoot"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy link:",
+                    "target": "复制链接失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open task note:",
+                    "target": "打开任务笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sync task to markdown:",
+                    "target": "同步任务至Markdown失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sync rolled-up parent to markdown:",
+                    "target": "同步汇总父任务至Markdown失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sync cascaded task to markdown:",
+                    "target": "同步级联任务至Markdown失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading task file:",
+                    "target": "读取任务文件错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[TaskSync] Failed to rename file:",
+                    "target": "[TaskSync] 文件重命名失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DailyNoteScanner] Scanner not initialized",
+                    "target": "[DailyNoteScanner] 扫描器未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Project Planner: injected stylesheet inline as fallback.",
+                    "target": "Project Planner: 已注入内联样式表作为备用方案。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add project",
+                    "target": "添加项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Sync Now",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Scan notes",
+                    "target": "扫描笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open graph",
+                    "target": "打开图谱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create notes",
+                    "target": "创建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add tag",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add status",
+                    "target": "添加状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add priority",
+                    "target": "添加优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage planner projects",
+                    "target": "管理规划项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Total budget for this project. Shown on the Dashboard cost card.",
+                    "target": "本项目的总预算。显示在仪表盘成本卡片上。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Applied to tasks with cost type 'Hourly' when no per-task rate is set.",
+                    "target": "当未设置每项任务费率时，适用于成本类型为'按小时'的任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display symbol for currency (e.g. $, €, £).",
+                    "target": "显示货币符号（如$、€、£）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which view opens first.",
+                    "target": "选择默认打开的视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When disabled, completed tasks will be hidden in Grid View only. Other views (Board, Timeline, Dashboard) will continue to show completed tasks.",
+                    "target": "禁用时，已完成任务仅在网格视图中隐藏。其他视图（看板、时间轴、仪表盘）仍会显示已完成任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When switching between views (Grid, Board, Timeline, Dashboard, Graph), open them in a new tab instead of replacing the current view.",
+                    "target": "在视图间切换时（网格、看板、时间轴、仪表盘、图表），在新标签页中打开而非替换当前视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how dates are displayed throughout the app. Dates are always stored internally as YYYY-MM-DD.",
+                    "target": "选择应用内日期显示格式。日期内部始终以YYYY-MM-DD格式存储。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which ribbon icons to display in the left sidebar. Changes require reloading Obsidian to take effect.",
+                    "target": "选择左侧边栏显示的功能区图标。更改需重新加载Obsidian才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show ribbon icon for opening Grid view",
+                    "target": "显示用于打开网格视图的功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show ribbon icon for opening Dashboard view",
+                    "target": "显示用于打开仪表板视图的功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show ribbon icon for opening Board view",
+                    "target": "显示用于打开看板视图的功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show ribbon icon for opening Dependency Graph view",
+                    "target": "显示用于打开依赖关系图视图的功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show ribbon icon for scanning daily notes (only visible when daily note sync is enabled)",
+                    "target": "显示用于扫描每日笔记的功能区图标（仅在启用每日笔记同步时可见）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync tasks between plugin data and markdown notes with YAML frontmatter",
+                    "target": "在插件数据和带有YAML前置元的Markdown笔记之间同步任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Base folder path where project folders will be created (e.g., 'Projects', 'Work/Planning'). Folder will be created if it doesn't exist.",
+                    "target": "项目文件夹的基路径（例如'Projects'、'Work/Planning'）。如果文件夹不存在将会自动创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically create/update markdown notes when tasks are added or modified",
+                    "target": "当任务添加或修改时自动创建/更新Markdown笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Scan project folders and sync markdown notes when plugin loads. ⚠️ WARNING: If using Obsidian Sync, disable this to prevent duplicate tasks across devices. The plugin will still watch for file changes.",
+                    "target": "插件加载时扫描项目文件夹并同步Markdown笔记。⚠️ 警告：如果使用Obsidian Sync，请禁用此功能以防止跨设备任务重复。插件仍会监视文件变更"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manually sync all tasks in the current project to markdown notes",
+                    "target": "手动将当前项目中的所有任务同步至Markdown笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically detect and import tasks tagged in daily notes and other markdown files",
+                    "target": "自动检测并导入每日笔记及其他Markdown文件中标记的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tag pattern to identify tasks (e.g., #planner or #task). Tasks with #planner/ProjectName will be added to the specific project.",
+                    "target": "用于识别任务的标签模式（例如#planner或#task）。带有#planner/项目名称的任务将被添加到特定项目中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of folders to scan (leave empty to scan all notes). Example: Daily Notes, Journal",
+                    "target": "要扫描的文件夹列表（留空则扫描所有笔记）。示例：每日笔记, 日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Project to add tasks to when no specific project tag is found (e.g., #planner without /ProjectName)",
+                    "target": "当未找到特定项目标签时（例如不带/项目名称的#planner），用于添加任务的默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manually scan all notes for tagged tasks and import them",
+                    "target": "手动扫描所有笔记以查找标记任务并导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Visualize task dependencies in an interactive graph view",
+                    "target": "在交互式图表视图中可视化任务依赖关系"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Generate individual markdown notes for all tasks in the current project",
+                    "target": "为当前项目中的所有任务生成单独的Markdown笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create custom tags with colors for organizing tasks",
+                    "target": "创建带颜色的自定义标签以组织任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create custom statuses with colors for task workflow",
+                    "target": "创建带颜色的自定义状态以管理任务工作流"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create custom priorities with colors for task importance",
+                    "target": "创建带颜色的自定义优先级以区分任务重要性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Visit the official website for documentation, guides, and updates",
+                    "target": "访问官方网站获取文档、指南和更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you find this plugin useful, consider supporting development!",
+                    "target": "如果您觉得本插件实用，请考虑支持开发工作！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Projects",
+                    "target": "项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Total Budget",
+                    "target": "总预算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Hourly Rate",
+                    "target": "默认时薪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Currency Symbol",
+                    "target": "货币符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default view",
+                    "target": "默认视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show completed tasks in Grid View",
+                    "target": "在网格视图中显示已完成任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open views in new tab",
+                    "target": "在新标签页中打开视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date display format",
+                    "target": "日期显示格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ribbon icons",
+                    "target": "功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ribbon icons visibility",
+                    "target": "功能区图标可见性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Grid view icon",
+                    "target": "网格视图图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dashboard view icon",
+                    "target": "仪表板视图图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Board view icon",
+                    "target": "看板视图图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dependency Graph icon",
+                    "target": "依赖关系图图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily Note scan icon",
+                    "target": "每日笔记扫描图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Markdown sync",
+                    "target": "Markdown同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable markdown sync",
+                    "target": "启用Markdown同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Projects base folder",
+                    "target": "项目基础文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-create task notes",
+                    "target": "自动创建任务笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync on startup",
+                    "target": "启动时同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync all tasks now",
+                    "target": "立即同步所有任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dependency scheduling",
+                    "target": "依赖关系调度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-schedule dependent tasks",
+                    "target": "自动调度依赖任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent task roll-up",
+                    "target": "父任务汇总"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-calculate parent task fields from subtasks",
+                    "target": "根据子任务自动计算父任务字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily note task tagging",
+                    "target": "每日笔记任务标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable daily note sync",
+                    "target": "启用每日笔记同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag pattern",
+                    "target": "标签模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scan folders",
+                    "target": "扫描文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default project",
+                    "target": "默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scan now",
+                    "target": "立即扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Actions",
+                    "target": "操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open dependency graph",
+                    "target": "打开依赖关系图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create task notes",
+                    "target": "创建任务注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tags",
+                    "target": "标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage tags",
+                    "target": "管理标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Statuses",
+                    "target": "状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage statuses",
+                    "target": "管理状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Priorities",
+                    "target": "优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage priorities",
+                    "target": "管理优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Support development",
+                    "target": "支持开发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Documentation & Updates",
+                    "target": "文档与更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Buy me a coffee",
+                    "target": "请我喝杯咖啡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Project Planner",
+                    "target": "项目规划器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Daily Notes, Journal",
+                    "target": "每日笔记、日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Tag name",
+                    "target": "标签名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Status name",
+                    "target": "状态名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Priority name",
+                    "target": "优先级名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open details",
+                    "target": "打开详情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Cut",
+                    "target": "剪切"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy",
+                    "target": "复制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Paste",
+                    "target": "粘贴"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy link to task",
+                    "target": "复制任务链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open Markdown task note",
+                    "target": "打开Markdown任务备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add new task above",
+                    "target": "在上方添加新任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add new task below",
+                    "target": "在下方添加新任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Make subtask",
+                    "target": "设为子任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Promote subtask",
+                    "target": "提升子任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete task",
+                    "target": "删除任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "View Task Notes",
+                    "target": "查看任务备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename bucket",
+                    "target": "重命名分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Change color",
+                    "target": "更改颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add bucket to right",
+                    "target": "右侧添加分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete bucket",
+                    "target": "删除分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Promote to parent",
+                    "target": "提升至父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Go to today",
+                    "target": "跳转至今日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Choose date...",
+                    "target": "选择日期..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove from My Day",
+                    "target": "从“我的一天”中移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete project",
+                    "target": "删除项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete tag",
+                    "target": "删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete status",
+                    "target": "删除状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete priority",
+                    "target": "删除优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Task Detail close failed",
+                    "target": "任务详情关闭失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DailyNoteScanner] Available projects:",
+                    "target": "[每日笔记扫描器] 可用项目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DailyNoteScanner] Default project ID:",
+                    "target": "[每日笔记扫描器] 默认项目ID："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Project Planner: could not auto-inject stylesheet",
+                    "target": "项目规划器：无法自动注入样式表"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tasks synced to markdown!",
+                    "target": "任务已同步至Markdown！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily notes scanned for tasks!",
+                    "target": "已扫描每日笔记中的任务！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Task link copied to clipboard",
+                    "target": "任务链接已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy link",
+                    "target": "复制链接失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Creating task note...",
+                    "target": "正在创建任务笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to open task note",
+                    "target": "打开任务笔记失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy link to clipboard",
+                    "target": "复制链接到剪贴板失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot add dependency: This would create a circular dependency chain.",
+                    "target": "无法添加依赖项：这将创建循环依赖链"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Scanning for tagged tasks...",
+                    "target": "正在扫描标记任务..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily note scanning is disabled. Enable it in settings.",
+                    "target": "每日笔记扫描功能已禁用。请在设置中启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-date-cell-readonly planner-rolled-up",
+                    "target": "planner-date-cell-readonly planner-rolled-up"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-effort-cell planner-rolled-up",
+                    "target": "planner-effort-cell planner-rolled-up"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-tag-badge-small planner-tag-badge-grid",
+                    "target": "planner-tag-badge-small planner-tag-badge-grid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-effort-readonly planner-rolled-up",
+                    "target": "planner-effort-readonly planner-rolled-up"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-effort-input planner-effort-total",
+                    "target": "planner-effort-input planner-effort-total"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-cost-readonly planner-cost-variance",
+                    "target": "planner-cost-readonly planner-cost-variance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-gantt-handle planner-gantt-handle-left",
+                    "target": "planner-gantt-handle planner-gantt-handle-left"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "planner-gantt-handle planner-gantt-handle-right",
+                    "target": "planner-gantt-handle planner-gantt-handle-right"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dashboard-cost-meta planner-cost-over-budget",
+                    "target": "dashboard-cost-meta planner-cost-over-budget"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "myday-picker-row-date myday-picker-row-nodate",
+                    "target": "myday-picker-row-date myday-picker-row-nodate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show description on card",
+                    "target": "在卡片上显示描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Title",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Status",
+                    "target": "状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Priority",
+                    "target": "优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bucket",
+                    "target": "分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tags",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Deps",
+                    "target": "依赖项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Start Date",
+                    "target": "开始日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Due Date",
+                    "target": "截止日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Created",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Modified",
+                    "target": "修改时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "% Complete",
+                    "target": "完成百分比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Effort Done",
+                    "target": "已完成工作量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Effort Left",
+                    "target": "剩余工作量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Effort Total",
+                    "target": "总工作量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Duration",
+                    "target": "持续时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Est. Cost",
+                    "target": "预估成本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Actual Cost",
+                    "target": "实际成本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "By Bucket",
+                    "target": "按分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "By Status",
+                    "target": "按状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "By Priority",
+                    "target": "按优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Over Budget",
+                    "target": "超出预算"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Not Started",
+                    "target": "未开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "In Progress",
+                    "target": "进行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Blocked",
+                    "target": "已阻塞"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Completed",
+                    "target": "已完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Low",
+                    "target": "低"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Medium",
+                    "target": "中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "High",
+                    "target": "高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Critical",
+                    "target": "严重"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Project",
+                    "target": "新建项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New tag",
+                    "target": "新建标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New status",
+                    "target": "新建状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New priority",
+                    "target": "新建优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "To Do",
+                    "target": "待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Done",
+                    "target": "已完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Bucket",
+                    "target": "新建分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unassigned",
+                    "target": "未分配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default",
+                    "target": "默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Blue",
+                    "target": "蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Teal",
+                    "target": "青色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Green",
+                    "target": "绿色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yellow",
+                    "target": "黄色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Orange",
+                    "target": "橙色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Red",
+                    "target": "红色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Purple",
+                    "target": "紫色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pink",
+                    "target": "粉色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gray",
+                    "target": "灰色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Project Planner",
+                    "target": "打开项目规划器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Board View",
+                    "target": "打开看板视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Dependency Graph",
+                    "target": "打开依赖关系图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Timeline (Gantt) View",
+                    "target": "打开时间轴（甘特图）视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Dashboard",
+                    "target": "打开仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open My Tasks",
+                    "target": "打开我的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scan Daily Notes for Tagged Tasks",
+                    "target": "扫描每日笔记中的标记任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "My Project",
+                    "target": "我的项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search tasks...",
+                    "target": "搜索任务..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Link title",
+                    "target": "链接标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "URL or [[Obsidian Link]]",
+                    "target": "URL或[[Obsidian链接]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Project Planner Settings",
+                    "target": "项目规划器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Changelog",
+                    "target": "更新日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No projects",
+                    "target": "无项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Task",
+                    "target": "添加任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Columns",
+                    "target": "列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Status:",
+                    "target": "状态："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Priority:",
+                    "target": "优先级："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⋮⋮",
+                    "target": "⋮⋮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No task selected.",
+                    "target": "未选择任务。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Link",
+                    "target": "复制链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Task Title",
+                    "target": "任务标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Description",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Status",
+                    "target": "状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Priority",
+                    "target": "优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tags",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Checklist",
+                    "target": "检查清单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No checklist items. Use the button below to add one.",
+                    "target": "无检查项。使用下方按钮添加。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add checklist item",
+                    "target": "添加检查项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Preview",
+                    "target": "卡片预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bucket",
+                    "target": "分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Start Date",
+                    "target": "开始日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Due Date",
+                    "target": "截止日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "% Complete",
+                    "target": "% 完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dependencies",
+                    "target": "依赖项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Links & Attachments",
+                    "target": "链接与附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No description",
+                    "target": "无描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No dependencies",
+                    "target": "无依赖项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select task...",
+                    "target": "选择任务..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add",
+                    "target": "添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No available tasks to add as dependencies.",
+                    "target": "无可用任务可添加为依赖项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No links or attachments",
+                    "target": "无链接或附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Link",
+                    "target": "添加链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tip: Use [[Page Name]] for Obsidian links or http(s):// for external links",
+                    "target": "提示：使用[[页面名称]]表示Obsidian内部链接，或使用http(s)://表示外部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tags assigned",
+                    "target": "未分配标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add tag...",
+                    "target": "添加标签..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tags available. Create tags in plugin settings.",
+                    "target": "无可用标签。请在插件设置中创建标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Duration",
+                    "target": "持续时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Effort",
+                    "target": "工作量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " (rolled up)",
+                    "target": "（已汇总）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Completed",
+                    "target": "已完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Remaining",
+                    "target": "剩余"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total",
+                    "target": "总计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "hours",
+                    "target": "小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cost",
+                    "target": "成本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cost Type:",
+                    "target": "成本类型："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "None",
+                    "target": "无"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fixed",
+                    "target": "固定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hourly",
+                    "target": "按小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Estimated",
+                    "target": "预计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Actual",
+                    "target": "实际"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Variance",
+                    "target": "差异"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hourly Rate:",
+                    "target": "小时费率："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Refresh",
+                    "target": "刷新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset Layout",
+                    "target": "重置布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Go",
+                    "target": "前往"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Zoom: ",
+                    "target": "缩放比例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Go to date",
+                    "target": "跳转至日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tasks match current filters.",
+                    "target": "当前筛选条件下无匹配任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tasks found",
+                    "target": "未找到任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Completion Progress",
+                    "target": "完成进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Effort Summary",
+                    "target": "工作量概要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Budget & Cost",
+                    "target": "预算与成本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View Cost Report",
+                    "target": "查看成本报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cost Report",
+                    "target": "成本报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No cost data available.",
+                    "target": "无可用成本数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tasks are over budget.",
+                    "target": "无任务超出预算。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Show All Projects",
+                    "target": "显示所有项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No projects found.",
+                    "target": "未找到项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No active project selected.",
+                    "target": "未选择活动项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Today",
+                    "target": "今日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Week",
+                    "target": "本周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This Week",
+                    "target": "本周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tasks due today",
+                    "target": "今日无到期任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tasks with today's date as their due date will appear here.",
+                    "target": "截止日期为今日的任务将显示在此处。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All tasks filtered out",
+                    "target": "所有任务已被筛选排除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Filtered",
+                    "target": "已筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Tasks to My Day",
+                    "target": "将任务添加至'我的一天'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No due date",
+                    "target": "无截止日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dashboard",
+                    "target": "仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Grid",
+                    "target": "网格视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Board",
+                    "target": "看板视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Timeline",
+                    "target": "时间轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Graph",
+                    "target": "图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "My Tasks",
+                    "target": "我的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open plugin settings",
+                    "target": "打开插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Show / hide columns",
+                    "target": "显示/隐藏列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Clear all filters",
+                    "target": "清除所有筛选条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Close Task Details",
+                    "target": "关闭任务详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New checklist item",
+                    "target": "新建检查项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Previous week",
+                    "target": "上一周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Next week",
+                    "target": "下一周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Close",
+                    "target": "关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Set due date to today",
+                    "target": "将截止日期设为今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "date",
+                    "target": "date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "FS",
+                    "target": "FS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "SS",
+                    "target": "SS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "FF",
+                    "target": "FF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "SF",
+                    "target": "SF"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setDesc(\"Manage planner projects\")",
+                    "target": "setDesc(\"Manage planner projects\")"
+                },
+                {
+                    "source": "setButtonText(\"Add project\")",
+                    "target": "setButtonText(\"Add project\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete project\")",
+                    "target": "setTooltip(\"Delete project\")"
+                },
+                {
+                    "source": "setName(\"Total Budget\")",
+                    "target": "setName(\"Total Budget\")"
+                },
+                {
+                    "source": "setDesc(\"Total budget for this project. Shown on the Dashboard cost card.\")",
+                    "target": "setDesc(\"Total budget for this project. Shown on the Dashboard cost card.\")"
+                },
+                {
+                    "source": "setName(\"Default Hourly Rate\")",
+                    "target": "setName(\"Default Hourly Rate\")"
+                },
+                {
+                    "source": "setDesc(\"Applied to tasks with cost type 'Hourly' when no per-task rate is set.\")",
+                    "target": "setDesc(\"Applied to tasks with cost type 'Hourly' when no per-task rate is set.\")"
+                },
+                {
+                    "source": "setName(\"Currency Symbol\")",
+                    "target": "setName(\"Currency Symbol\")"
+                },
+                {
+                    "source": "setDesc(\"Display symbol for currency (e.g. $, €, £).\")",
+                    "target": "setDesc(\"Display symbol for currency (e.g. $, €, £).\")"
+                },
+                {
+                    "source": "setName(\"Default view\")",
+                    "target": "setName(\"Default view\")"
+                },
+                {
+                    "source": "setDesc(\"Choose which view opens first.\")",
+                    "target": "setDesc(\"Choose which view opens first.\")"
+                },
+                {
+                    "source": "setName(\"Show completed tasks in Grid View\")",
+                    "target": "setName(\"Show completed tasks in Grid View\")"
+                },
+                {
+                    "source": "setDesc(\"When disabled, completed tasks will be hidden in Grid View only. Other views (Board, Timeline, Dashboard) will continue to show completed tasks.\")",
+                    "target": "setDesc(\"When disabled, completed tasks will be hidden in Grid View only. Other views (Board, Timeline, Dashboard) will continue to show completed tasks.\")"
+                },
+                {
+                    "source": "setName(\"Open views in new tab\")",
+                    "target": "setName(\"Open views in new tab\")"
+                },
+                {
+                    "source": "setDesc(\"When switching between views (Grid, Board, Timeline, Dashboard, Graph), open them in a new tab instead of replacing the current view.\")",
+                    "target": "setDesc(\"When switching between views (Grid, Board, Timeline, Dashboard, Graph), open them in a new tab instead of replacing the current view.\")"
+                },
+                {
+                    "source": "setName(\"Date format\")",
+                    "target": "setName(\"Date format\")"
+                },
+                {
+                    "source": "setName(\"Date display format\")",
+                    "target": "setName(\"Date display format\")"
+                },
+                {
+                    "source": "setDesc(\"Choose how dates are displayed throughout the app. Dates are always stored internally as YYYY-MM-DD.\")",
+                    "target": "setDesc(\"Choose how dates are displayed throughout the app. Dates are always stored internally as YYYY-MM-DD.\")"
+                },
+                {
+                    "source": "setName(\"Ribbon icons\")",
+                    "target": "setName(\"Ribbon icons\")"
+                },
+                {
+                    "source": "setName(\"Ribbon icons visibility\")",
+                    "target": "setName(\"Ribbon icons visibility\")"
+                },
+                {
+                    "source": "setDesc(\"Choose which ribbon icons to display in the left sidebar. Changes require reloading Obsidian to take effect.\")",
+                    "target": "setDesc(\"Choose which ribbon icons to display in the left sidebar. Changes require reloading Obsidian to take effect.\")"
+                },
+                {
+                    "source": "setName(\"Grid view icon\")",
+                    "target": "setName(\"Grid view icon\")"
+                },
+                {
+                    "source": "setDesc(\"Show ribbon icon for opening Grid view\")",
+                    "target": "setDesc(\"Show ribbon icon for opening Grid view\")"
+                },
+                {
+                    "source": "setName(\"Dashboard view icon\")",
+                    "target": "setName(\"Dashboard view icon\")"
+                },
+                {
+                    "source": "setDesc(\"Show ribbon icon for opening Dashboard view\")",
+                    "target": "setDesc(\"Show ribbon icon for opening Dashboard view\")"
+                },
+                {
+                    "source": "setName(\"Board view icon\")",
+                    "target": "setName(\"Board view icon\")"
+                },
+                {
+                    "source": "setDesc(\"Show ribbon icon for opening Board view\")",
+                    "target": "setDesc(\"Show ribbon icon for opening Board view\")"
+                },
+                {
+                    "source": "setName(\"Dependency Graph icon\")",
+                    "target": "setName(\"Dependency Graph icon\")"
+                },
+                {
+                    "source": "setDesc(\"Show ribbon icon for opening Dependency Graph view\")",
+                    "target": "setDesc(\"Show ribbon icon for opening Dependency Graph view\")"
+                },
+                {
+                    "source": "setName(\"Daily Note scan icon\")",
+                    "target": "setName(\"Daily Note scan icon\")"
+                },
+                {
+                    "source": "setDesc(\"Show ribbon icon for scanning daily notes (only visible when daily note sync is enabled)\")",
+                    "target": "setDesc(\"Show ribbon icon for scanning daily notes (only visible when daily note sync is enabled)\")"
+                },
+                {
+                    "source": "setName(\"Markdown sync\")",
+                    "target": "setName(\"Markdown sync\")"
+                },
+                {
+                    "source": "setName(\"Enable markdown sync\")",
+                    "target": "setName(\"Enable markdown sync\")"
+                },
+                {
+                    "source": "setDesc(\"Sync tasks between plugin data and markdown notes with YAML frontmatter\")",
+                    "target": "setDesc(\"Sync tasks between plugin data and markdown notes with YAML frontmatter\")"
+                },
+                {
+                    "source": "setName(\"Projects base folder\")",
+                    "target": "setName(\"Projects base folder\")"
+                },
+                {
+                    "source": "setDesc(\"Base folder path where project folders will be created (e.g., 'Projects', 'Work/Planning'). Folder will be created if it doesn't exist.\")",
+                    "target": "setDesc(\"Base folder path where project folders will be created (e.g., 'Projects', 'Work/Planning'). Folder will be created if it doesn't exist.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Project Planner\")",
+                    "target": "setPlaceholder(\"Project Planner\")"
+                },
+                {
+                    "source": "setName(\"Auto-create task notes\")",
+                    "target": "setName(\"Auto-create task notes\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically create/update markdown notes when tasks are added or modified\")",
+                    "target": "setDesc(\"Automatically create/update markdown notes when tasks are added or modified\")"
+                },
+                {
+                    "source": "setName(\"Sync on startup\")",
+                    "target": "setName(\"Sync on startup\")"
+                },
+                {
+                    "source": "setDesc(\"Scan project folders and sync markdown notes when plugin loads. ⚠️ WARNING: If using Obsidian Sync, disable this to prevent duplicate tasks across devices. The plugin will still watch for file changes.\")",
+                    "target": "setDesc(\"Scan project folders and sync markdown notes when plugin loads. ⚠️ WARNING: If using Obsidian Sync, disable this to prevent duplicate tasks across devices. The plugin will still watch for file changes.\")"
+                },
+                {
+                    "source": "setName(\"Sync all tasks now\")",
+                    "target": "setName(\"Sync all tasks now\")"
+                },
+                {
+                    "source": "setDesc(\"Manually sync all tasks in the current project to markdown notes\")",
+                    "target": "setDesc(\"Manually sync all tasks in the current project to markdown notes\")"
+                },
+                {
+                    "source": "setButtonText(\"Sync Now\")",
+                    "target": "setButtonText(\"Sync Now\")"
+                },
+                {
+                    "source": "Notice('Tasks synced to markdown!')",
+                    "target": "Notice('Tasks synced to markdown!')"
+                },
+                {
+                    "source": "setName(\"Dependency scheduling\")",
+                    "target": "setName(\"Dependency scheduling\")"
+                },
+                {
+                    "source": "setName(\"Auto-schedule dependent tasks\")",
+                    "target": "setName(\"Auto-schedule dependent tasks\")"
+                },
+                {
+                    "source": "setDesc(\"When a predecessor task's dates change, automatically shift dependent tasks accordingly (like MS Project / GanttProject). \" +\n            \"Supports all dependency types: Finish-to-Start, Start-to-Start, Finish-to-Finish, Start-to-Finish.\")",
+                    "target": "setDesc(\"When a predecessor task's dates change, automatically shift dependent tasks accordingly (like MS Project / GanttProject). \" +\n            \"Supports all dependency types: Finish-to-Start, Start-to-Start, Finish-to-Finish, Start-to-Finish.\")"
+                },
+                {
+                    "source": "setName(\"Parent task roll-up\")",
+                    "target": "setName(\"Parent task roll-up\")"
+                },
+                {
+                    "source": "setName(\"Auto-calculate parent task fields from subtasks\")",
+                    "target": "setName(\"Auto-calculate parent task fields from subtasks\")"
+                },
+                {
+                    "source": "setDesc(\"Parent tasks automatically derive dates (earliest start, latest due), effort (sum of children), \" +\n            \"and % complete (duration-weighted average) from their subtasks — like MS Project.\")",
+                    "target": "setDesc(\"Parent tasks automatically derive dates (earliest start, latest due), effort (sum of children), \" +\n            \"and % complete (duration-weighted average) from their subtasks — like MS Project.\")"
+                },
+                {
+                    "source": "setName(\"Daily note task tagging\")",
+                    "target": "setName(\"Daily note task tagging\")"
+                },
+                {
+                    "source": "setName(\"Enable daily note sync\")",
+                    "target": "setName(\"Enable daily note sync\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically detect and import tasks tagged in daily notes and other markdown files\")",
+                    "target": "setDesc(\"Automatically detect and import tasks tagged in daily notes and other markdown files\")"
+                },
+                {
+                    "source": "setName(\"Tag pattern\")",
+                    "target": "setName(\"Tag pattern\")"
+                },
+                {
+                    "source": "setDesc(\"Tag pattern to identify tasks (e.g., #planner or #task). Tasks with #planner/ProjectName will be added to the specific project.\")",
+                    "target": "setDesc(\"Tag pattern to identify tasks (e.g., #planner or #task). Tasks with #planner/ProjectName will be added to the specific project.\")"
+                },
+                {
+                    "source": "setName(\"Scan folders\")",
+                    "target": "setName(\"Scan folders\")"
+                },
+                {
+                    "source": "setDesc(\"Comma-separated list of folders to scan (leave empty to scan all notes). Example: Daily Notes, Journal\")",
+                    "target": "setDesc(\"Comma-separated list of folders to scan (leave empty to scan all notes). Example: Daily Notes, Journal\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Daily Notes, Journal\")",
+                    "target": "setPlaceholder(\"Daily Notes, Journal\")"
+                },
+                {
+                    "source": "setName(\"Default project\")",
+                    "target": "setName(\"Default project\")"
+                },
+                {
+                    "source": "setDesc(\"Project to add tasks to when no specific project tag is found (e.g., #planner without /ProjectName)\")",
+                    "target": "setDesc(\"Project to add tasks to when no specific project tag is found (e.g., #planner without /ProjectName)\")"
+                },
+                {
+                    "source": "setName(\"Scan now\")",
+                    "target": "setName(\"Scan now\")"
+                },
+                {
+                    "source": "setDesc(\"Manually scan all notes for tagged tasks and import them\")",
+                    "target": "setDesc(\"Manually scan all notes for tagged tasks and import them\")"
+                },
+                {
+                    "source": "setButtonText(\"Scan notes\")",
+                    "target": "setButtonText(\"Scan notes\")"
+                },
+                {
+                    "source": "Notice('Daily notes scanned for tasks!')",
+                    "target": "Notice('Daily notes scanned for tasks!')"
+                },
+                {
+                    "source": "setName(\"Open dependency graph\")",
+                    "target": "setName(\"Open dependency graph\")"
+                },
+                {
+                    "source": "setDesc(\"Visualize task dependencies in an interactive graph view\")",
+                    "target": "setDesc(\"Visualize task dependencies in an interactive graph view\")"
+                },
+                {
+                    "source": "setButtonText(\"Open graph\")",
+                    "target": "setButtonText(\"Open graph\")"
+                },
+                {
+                    "source": "setName(\"Create task notes\")",
+                    "target": "setName(\"Create task notes\")"
+                },
+                {
+                    "source": "setDesc(\"Generate individual markdown notes for all tasks in the current project\")",
+                    "target": "setDesc(\"Generate individual markdown notes for all tasks in the current project\")"
+                },
+                {
+                    "source": "setButtonText(\"Create notes\")",
+                    "target": "setButtonText(\"Create notes\")"
+                },
+                {
+                    "source": "setName(\"Manage tags\")",
+                    "target": "setName(\"Manage tags\")"
+                },
+                {
+                    "source": "setDesc(\"Create custom tags with colors for organizing tasks\")",
+                    "target": "setDesc(\"Create custom tags with colors for organizing tasks\")"
+                },
+                {
+                    "source": "setButtonText(\"Add tag\")",
+                    "target": "setButtonText(\"Add tag\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Tag name\")",
+                    "target": "setPlaceholder(\"Tag name\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete tag\")",
+                    "target": "setTooltip(\"Delete tag\")"
+                },
+                {
+                    "source": "setName(\"Manage statuses\")",
+                    "target": "setName(\"Manage statuses\")"
+                },
+                {
+                    "source": "setDesc(\"Create custom statuses with colors for task workflow\")",
+                    "target": "setDesc(\"Create custom statuses with colors for task workflow\")"
+                },
+                {
+                    "source": "setButtonText(\"Add status\")",
+                    "target": "setButtonText(\"Add status\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Status name\")",
+                    "target": "setPlaceholder(\"Status name\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete status\")",
+                    "target": "setTooltip(\"Delete status\")"
+                },
+                {
+                    "source": "setName(\"Manage priorities\")",
+                    "target": "setName(\"Manage priorities\")"
+                },
+                {
+                    "source": "setDesc(\"Create custom priorities with colors for task importance\")",
+                    "target": "setDesc(\"Create custom priorities with colors for task importance\")"
+                },
+                {
+                    "source": "setButtonText(\"Add priority\")",
+                    "target": "setButtonText(\"Add priority\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Priority name\")",
+                    "target": "setPlaceholder(\"Priority name\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete priority\")",
+                    "target": "setTooltip(\"Delete priority\")"
+                },
+                {
+                    "source": "setName(\"Support development\")",
+                    "target": "setName(\"Support development\")"
+                },
+                {
+                    "source": "setName(\"Documentation & Updates\")",
+                    "target": "setName(\"Documentation & Updates\")"
+                },
+                {
+                    "source": "setDesc(\"Visit the official website for documentation, guides, and updates\")",
+                    "target": "setDesc(\"Visit the official website for documentation, guides, and updates\")"
+                },
+                {
+                    "source": "setButtonText(\"Visit projectplanner.md\")",
+                    "target": "setButtonText(\"Visit projectplanner.md\")"
+                },
+                {
+                    "source": "setName(\"Buy me a coffee\")",
+                    "target": "setName(\"Buy me a coffee\")"
+                },
+                {
+                    "source": "setDesc(\"If you find this plugin useful, consider supporting development!\")",
+                    "target": "setDesc(\"If you find this plugin useful, consider supporting development!\")"
+                },
+                {
+                    "source": "setTitle(\"Open details\")",
+                    "target": "setTitle(\"Open details\")"
+                },
+                {
+                    "source": "setTitle(\"Copy link to task\")",
+                    "target": "setTitle(\"Copy link to task\")"
+                },
+                {
+                    "source": "Notice(\"Task link copied to clipboard\")",
+                    "target": "Notice(\"Task link copied to clipboard\")"
+                },
+                {
+                    "source": "error(\"Failed to copy link:\", err);\n                new obsidian.Notice(\"Failed to copy link\")",
+                    "target": "error(\"Failed to copy link:\", err);\n                new obsidian.Notice(\"Failed to copy link\")"
+                },
+                {
+                    "source": "setTitle(\"Open Markdown task note\")",
+                    "target": "setTitle(\"Open Markdown task note\")"
+                },
+                {
+                    "source": "Notice(\"Creating task note...\")",
+                    "target": "Notice(\"Creating task note...\")"
+                },
+                {
+                    "source": "error(\"Failed to open task note:\", err);\n                new obsidian.Notice(\"Failed to open task note\")",
+                    "target": "error(\"Failed to open task note:\", err);\n                new obsidian.Notice(\"Failed to open task note\")"
+                },
+                {
+                    "source": "setTitle(\"Add new task above\")",
+                    "target": "setTitle(\"Add new task above\")"
+                },
+                {
+                    "source": "setTitle(\"Add new task below\")",
+                    "target": "setTitle(\"Add new task below\")"
+                },
+                {
+                    "source": "setTitle(\"Make subtask\")",
+                    "target": "setTitle(\"Make subtask\")"
+                },
+                {
+                    "source": "setTitle(\"Promote subtask\")",
+                    "target": "setTitle(\"Promote subtask\")"
+                },
+                {
+                    "source": "setTitle(\"Delete task\")",
+                    "target": "setTitle(\"Delete task\")"
+                },
+                {
+                    "source": "setTitle(\"View Task Notes\")",
+                    "target": "setTitle(\"View Task Notes\")"
+                },
+                {
+                    "source": "setTitle(\"Rename bucket\")",
+                    "target": "setTitle(\"Rename bucket\")"
+                },
+                {
+                    "source": "setTitle(\"Change color\")",
+                    "target": "setTitle(\"Change color\")"
+                },
+                {
+                    "source": "setTitle(\"Add bucket to right\")",
+                    "target": "setTitle(\"Add bucket to right\")"
+                },
+                {
+                    "source": "setTitle(\"Delete bucket\")",
+                    "target": "setTitle(\"Delete bucket\")"
+                },
+                {
+                    "source": "Notice(\"Failed to copy link to clipboard\")",
+                    "target": "Notice(\"Failed to copy link to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Cannot add dependency: This would create a circular dependency chain.\")",
+                    "target": "Notice(\"Cannot add dependency: This would create a circular dependency chain.\")"
+                },
+                {
+                    "source": "error(\"Failed to copy link:\", err);\n                    new obsidian.Notice(\"Failed to copy link\")",
+                    "target": "error(\"Failed to copy link:\", err);\n                    new obsidian.Notice(\"Failed to copy link\")"
+                },
+                {
+                    "source": "error(\"Failed to open task note:\", err);\n                    new obsidian.Notice(\"Failed to open task note\")",
+                    "target": "error(\"Failed to open task note:\", err);\n                    new obsidian.Notice(\"Failed to open task note\")"
+                },
+                {
+                    "source": "setTitle(\"Promote to parent\")",
+                    "target": "setTitle(\"Promote to parent\")"
+                },
+                {
+                    "source": "setTitle(\"Go to today\")",
+                    "target": "setTitle(\"Go to today\")"
+                },
+                {
+                    "source": "setTitle(\"Choose date...\")",
+                    "target": "setTitle(\"Choose date...\")"
+                },
+                {
+                    "source": "appendText(\" Show completed\")",
+                    "target": "appendText(\" Show completed\")"
+                },
+                {
+                    "source": "setTitle(\"Remove from My Day\")",
+                    "target": "setTitle(\"Remove from My Day\")"
+                },
+                {
+                    "source": "setTitle(`Project: ${projectName}`)",
+                    "target": "setTitle(`Project: ${projectName}`)"
+                },
+                {
+                    "source": "log(`[TaskSync] Deleted old task file: ${oldFilePath}`)",
+                    "target": "log(`[TaskSync] Deleted old task file: ${oldFilePath}`)"
+                },
+                {
+                    "source": "log(`[DailyNoteScanner] Found duplicate by content, updating existing task: ${task.title}`)",
+                    "target": "log(`[DailyNoteScanner] Found duplicate by content, updating existing task: ${task.title}`)"
+                },
+                {
+                    "source": "Notice(`Imported ${tasksFound} tasks from daily notes`)",
+                    "target": "Notice(`Imported ${tasksFound} tasks from daily notes`)"
+                },
+                {
+                    "source": "log(`[DailyNoteScanner] Cleaned up ${keysToDelete.length} location entries for deleted file: ${file.path}`)",
+                    "target": "log(`[DailyNoteScanner] Cleaned up ${keysToDelete.length} location entries for deleted file: ${file.path}`)"
+                },
+                {
+                    "source": "log(`[DailyNoteScanner] Updated ${updates.length} location entries for renamed file: ${oldPath} → ${file.path}`)",
+                    "target": "log(`[DailyNoteScanner] Updated ${updates.length} location entries for renamed file: ${oldPath} → ${file.path}`)"
+                },
+                {
+                    "source": "Notice('Scanning for tagged tasks...')",
+                    "target": "Notice('Scanning for tagged tasks...')"
+                },
+                {
+                    "source": "Notice('Daily note scanning is disabled. Enable it in settings.')",
+                    "target": "Notice('Daily note scanning is disabled. Enable it in settings.')"
+                },
+                {
+                    "source": "error('[DailyNoteScanner] Scanner not initialized')",
+                    "target": "error('[DailyNoteScanner] Scanner not initialized')"
+                },
+                {
+                    "source": "error(`Failed to create/update task note: ${fileName}`, error);\n                new obsidian.Notice(`Failed to create task note: ${task.title}`)",
+                    "target": "error(`Failed to create/update task note: ${fileName}`, error);\n                new obsidian.Notice(`Failed to create task note: ${task.title}`)"
+                },
+                {
+                    "source": "name: \"Not Started\"",
+                    "target": "name: \"Not Started\""
+                },
+                {
+                    "source": "name: \"In Progress\"",
+                    "target": "name: \"In Progress\""
+                },
+                {
+                    "source": "name: \"Blocked\"",
+                    "target": "name: \"Blocked\""
+                },
+                {
+                    "source": "name: \"Completed\"",
+                    "target": "name: \"Completed\""
+                },
+                {
+                    "source": "name: \"Low\"",
+                    "target": "name: \"Low\""
+                },
+                {
+                    "source": "name: \"Medium\"",
+                    "target": "name: \"Medium\""
+                },
+                {
+                    "source": "name: \"High\"",
+                    "target": "name: \"High\""
+                },
+                {
+                    "source": "name: \"Critical\"",
+                    "target": "name: \"Critical\""
+                },
+                {
+                    "source": "text: \"Project Planner Settings\"",
+                    "target": "text: \"Project Planner Settings\""
+                },
+                {
+                    "source": "text: `v${this.plugin.manifest.version}`",
+                    "target": "text: `v${this.plugin.manifest.version}`"
+                },
+                {
+                    "source": "text: \"Changelog\"",
+                    "target": "text: \"Changelog\""
+                },
+                {
+                    "source": "name: \"New Project\"",
+                    "target": "name: \"New Project\""
+                },
+                {
+                    "source": "text: `Cost Tracking — ${activeProject.name}`",
+                    "target": "text: `Cost Tracking — ${activeProject.name}`"
+                },
+                {
+                    "source": "name: \"New tag\"",
+                    "target": "name: \"New tag\""
+                },
+                {
+                    "source": "name: \"New status\"",
+                    "target": "name: \"New status\""
+                },
+                {
+                    "source": "name: \"New priority\"",
+                    "target": "name: \"New priority\""
+                },
+                {
+                    "source": "text: \"No projects\"",
+                    "target": "text: \"No projects\""
+                },
+                {
+                    "source": "text: \"Add Task\"",
+                    "target": "text: \"Add Task\""
+                },
+                {
+                    "source": "textContent = \"⚙\"",
+                    "target": "textContent = \"⚙\""
+                },
+                {
+                    "source": "search: \"\"",
+                    "target": "search: \"\""
+                },
+                {
+                    "source": "text: \"Columns\"",
+                    "target": "text: \"Columns\""
+                },
+                {
+                    "source": "text: \"Status:\"",
+                    "target": "text: \"Status:\""
+                },
+                {
+                    "source": "text: \"Priority:\"",
+                    "target": "text: \"Priority:\""
+                },
+                {
+                    "source": "text: \"✕\"",
+                    "target": "text: \"✕\""
+                },
+                {
+                    "source": "text: \"⋮⋮\"",
+                    "target": "text: \"⋮⋮\""
+                },
+                {
+                    "source": "text: \"\"",
+                    "target": "text: \"\""
+                },
+                {
+                    "source": "text: \"⋯\"",
+                    "target": "text: \"⋯\""
+                },
+                {
+                    "source": "text: \"—\"",
+                    "target": "text: \"—\""
+                },
+                {
+                    "source": "text: `${pct}%`",
+                    "target": "text: `${pct}%`"
+                },
+                {
+                    "source": "text: \"-\"",
+                    "target": "text: \"-\""
+                },
+                {
+                    "source": "link:\", err);\n                new obsidian.Notice(\"",
+                    "target": "link:\", err);\n                new obsidian.Notice(\""
+                },
+                {
+                    "source": "text: \"×\"",
+                    "target": "text: \"×\""
+                },
+                {
+                    "source": "name: \"To Do\"",
+                    "target": "name: \"To Do\""
+                },
+                {
+                    "source": "name: \"Done\"",
+                    "target": "name: \"Done\""
+                },
+                {
+                    "source": "search = \"\"",
+                    "target": "search = \"\""
+                },
+                {
+                    "source": "textContent = `${bucketTasks.length}`",
+                    "target": "textContent = `${bucketTasks.length}`"
+                },
+                {
+                    "source": "textContent = \"+ Add task\"",
+                    "target": "textContent = \"+ Add task\""
+                },
+                {
+                    "source": "textContent = \"+\"",
+                    "target": "textContent = \"+\""
+                },
+                {
+                    "source": "textContent = \"Add new bucket\"",
+                    "target": "textContent = \"Add new bucket\""
+                },
+                {
+                    "source": "name: \"New Bucket\"",
+                    "target": "name: \"New Bucket\""
+                },
+                {
+                    "source": "textContent = \"🔥\"",
+                    "target": "textContent = \"🔥\""
+                },
+                {
+                    "source": "textContent = \"⚡\"",
+                    "target": "textContent = \"⚡\""
+                },
+                {
+                    "source": "textContent = `📅 ${formatted}`",
+                    "target": "textContent = `📅 ${formatted}`"
+                },
+                {
+                    "source": "textContent = `✓ ${completed}/${total}`",
+                    "target": "textContent = `✓ ${completed}/${total}`"
+                },
+                {
+                    "source": "textContent = \"🔗\"",
+                    "target": "textContent = \"🔗\""
+                },
+                {
+                    "source": "textContent = \"📎\"",
+                    "target": "textContent = \"📎\""
+                },
+                {
+                    "source": "textContent = `Completed (${completedTasks.length})`",
+                    "target": "textContent = `Completed (${completedTasks.length})`"
+                },
+                {
+                    "source": "textContent = `${unassignedTasks.length}`",
+                    "target": "textContent = `${unassignedTasks.length}`"
+                },
+                {
+                    "source": "name: \"Unassigned\"",
+                    "target": "name: \"Unassigned\""
+                },
+                {
+                    "source": "name: \"Default\"",
+                    "target": "name: \"Default\""
+                },
+                {
+                    "source": "name: \"Blue\"",
+                    "target": "name: \"Blue\""
+                },
+                {
+                    "source": "name: \"Teal\"",
+                    "target": "name: \"Teal\""
+                },
+                {
+                    "source": "name: \"Green\"",
+                    "target": "name: \"Green\""
+                },
+                {
+                    "source": "name: \"Yellow\"",
+                    "target": "name: \"Yellow\""
+                },
+                {
+                    "source": "name: \"Orange\"",
+                    "target": "name: \"Orange\""
+                },
+                {
+                    "source": "name: \"Red\"",
+                    "target": "name: \"Red\""
+                },
+                {
+                    "source": "name: \"Purple\"",
+                    "target": "name: \"Purple\""
+                },
+                {
+                    "source": "name: \"Pink\"",
+                    "target": "name: \"Pink\""
+                },
+                {
+                    "source": "name: \"Gray\"",
+                    "target": "name: \"Gray\""
+                },
+                {
+                    "source": "text: \"No task selected.\"",
+                    "target": "text: \"No task selected.\""
+                },
+                {
+                    "source": "text: \"Copy Link\"",
+                    "target": "text: \"Copy Link\""
+                },
+                {
+                    "source": "textContent = \"Copied!\"",
+                    "target": "textContent = \"Copied!\""
+                },
+                {
+                    "source": "textContent = \"Copy Link\"",
+                    "target": "textContent = \"Copy Link\""
+                },
+                {
+                    "source": "text: \"Task Title\"",
+                    "target": "text: \"Task Title\""
+                },
+                {
+                    "source": "text: \"Description\"",
+                    "target": "text: \"Description\""
+                },
+                {
+                    "source": "text: \"Status\"",
+                    "target": "text: \"Status\""
+                },
+                {
+                    "source": "text: \"Priority\"",
+                    "target": "text: \"Priority\""
+                },
+                {
+                    "source": "text: \"Tags\"",
+                    "target": "text: \"Tags\""
+                },
+                {
+                    "source": "text: \"Checklist\"",
+                    "target": "text: \"Checklist\""
+                },
+                {
+                    "source": "text: \"No checklist items. Use the button below to add one.\"",
+                    "target": "text: \"No checklist items. Use the button below to add one.\""
+                },
+                {
+                    "source": "text: \"Add checklist item\"",
+                    "target": "text: \"Add checklist item\""
+                },
+                {
+                    "source": "text: \"Card Preview\"",
+                    "target": "text: \"Card Preview\""
+                },
+                {
+                    "source": "description: \"Show description on card\"",
+                    "target": "description: \"Show description on card\""
+                },
+                {
+                    "source": "text: \"Bucket\"",
+                    "target": "text: \"Bucket\""
+                },
+                {
+                    "source": "text: \"Start Date\"",
+                    "target": "text: \"Start Date\""
+                },
+                {
+                    "source": "text: \"Due Date\"",
+                    "target": "text: \"Due Date\""
+                },
+                {
+                    "source": "text: \"% Complete\"",
+                    "target": "text: \"% Complete\""
+                },
+                {
+                    "source": "text: \"Dependencies\"",
+                    "target": "text: \"Dependencies\""
+                },
+                {
+                    "source": "text: \"Links & Attachments\"",
+                    "target": "text: \"Links & Attachments\""
+                },
+                {
+                    "source": "text: \"No description\"",
+                    "target": "text: \"No description\""
+                },
+                {
+                    "source": "text: \"No dependencies\"",
+                    "target": "text: \"No dependencies\""
+                },
+                {
+                    "source": "text: \"Select task...\"",
+                    "target": "text: \"Select task...\""
+                },
+                {
+                    "source": "text: \"Finish-to-Start\"",
+                    "target": "text: \"Finish-to-Start\""
+                },
+                {
+                    "source": "text: \"Start-to-Start\"",
+                    "target": "text: \"Start-to-Start\""
+                },
+                {
+                    "source": "text: \"Finish-to-Finish\"",
+                    "target": "text: \"Finish-to-Finish\""
+                },
+                {
+                    "source": "text: \"Start-to-Finish\"",
+                    "target": "text: \"Start-to-Finish\""
+                },
+                {
+                    "source": "text: \"Add\"",
+                    "target": "text: \"Add\""
+                },
+                {
+                    "source": "text: \"No available tasks to add as dependencies.\"",
+                    "target": "text: \"No available tasks to add as dependencies.\""
+                },
+                {
+                    "source": "text: \"No links or attachments\"",
+                    "target": "text: \"No links or attachments\""
+                },
+                {
+                    "source": "text: \"Add Link\"",
+                    "target": "text: \"Add Link\""
+                },
+                {
+                    "source": "text: \"Tip: Use [[Page Name]] for Obsidian links or http(s):// for external links\"",
+                    "target": "text: \"Tip: Use [[Page Name]] for Obsidian links or http(s):// for external links\""
+                },
+                {
+                    "source": "text: \"No tags assigned\"",
+                    "target": "text: \"No tags assigned\""
+                },
+                {
+                    "source": "text: \"Add tag...\"",
+                    "target": "text: \"Add tag...\""
+                },
+                {
+                    "source": "text: \"No tags available. Create tags in plugin settings.\"",
+                    "target": "text: \"No tags available. Create tags in plugin settings.\""
+                },
+                {
+                    "source": "text: \"Duration\"",
+                    "target": "text: \"Duration\""
+                },
+                {
+                    "source": "textContent = \"Invalid range\"",
+                    "target": "textContent = \"Invalid range\""
+                },
+                {
+                    "source": "textContent = \"Set start & due dates\"",
+                    "target": "textContent = \"Set start & due dates\""
+                },
+                {
+                    "source": "text: \"%\"",
+                    "target": "text: \"%\""
+                },
+                {
+                    "source": "text: \"Effort\"",
+                    "target": "text: \"Effort\""
+                },
+                {
+                    "source": "text: \" (rolled up)\"",
+                    "target": "text: \" (rolled up)\""
+                },
+                {
+                    "source": "text: \"Completed\"",
+                    "target": "text: \"Completed\""
+                },
+                {
+                    "source": "text: \"+\"",
+                    "target": "text: \"+\""
+                },
+                {
+                    "source": "text: \"Remaining\"",
+                    "target": "text: \"Remaining\""
+                },
+                {
+                    "source": "text: \"=\"",
+                    "target": "text: \"=\""
+                },
+                {
+                    "source": "text: \"Total\"",
+                    "target": "text: \"Total\""
+                },
+                {
+                    "source": "text: \"hours\"",
+                    "target": "text: \"hours\""
+                },
+                {
+                    "source": "text: \"Cost\"",
+                    "target": "text: \"Cost\""
+                },
+                {
+                    "source": "text: \"Cost Type:\"",
+                    "target": "text: \"Cost Type:\""
+                },
+                {
+                    "source": "text: \"None\"",
+                    "target": "text: \"None\""
+                },
+                {
+                    "source": "text: \"Fixed\"",
+                    "target": "text: \"Fixed\""
+                },
+                {
+                    "source": "text: \"Hourly\"",
+                    "target": "text: \"Hourly\""
+                },
+                {
+                    "source": "text: \"Estimated\"",
+                    "target": "text: \"Estimated\""
+                },
+                {
+                    "source": "text: \"Actual\"",
+                    "target": "text: \"Actual\""
+                },
+                {
+                    "source": "text: \"Variance\"",
+                    "target": "text: \"Variance\""
+                },
+                {
+                    "source": "text: \"Hourly Rate:\"",
+                    "target": "text: \"Hourly Rate:\""
+                },
+                {
+                    "source": "text: \"Refresh\"",
+                    "target": "text: \"Refresh\""
+                },
+                {
+                    "source": "text: \"Reset Layout\"",
+                    "target": "text: \"Reset Layout\""
+                },
+                {
+                    "source": "link:\", err);\n                    new obsidian.Notice(\"",
+                    "target": "link:\", err);\n                    new obsidian.Notice(\""
+                },
+                {
+                    "source": "text: \"Go\"",
+                    "target": "text: \"Go\""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                },
+                {
+                    "source": "text: \"Zoom: \"",
+                    "target": "text: \"Zoom: \""
+                },
+                {
+                    "source": "text: \"Go to date\"",
+                    "target": "text: \"Go to date\""
+                },
+                {
+                    "source": "text: \"No tasks match current filters.\"",
+                    "target": "text: \"No tasks match current filters.\""
+                },
+                {
+                    "source": "textContent = `${percentage}%`",
+                    "target": "textContent = `${percentage}%`"
+                },
+                {
+                    "source": "text: \"No tasks found\"",
+                    "target": "text: \"No tasks found\""
+                },
+                {
+                    "source": "text: `Due: ${task.dueDate}`",
+                    "target": "text: `Due: ${task.dueDate}`"
+                },
+                {
+                    "source": "text: `Created: ${createdDate.toLocaleDateString()}`",
+                    "target": "text: `Created: ${createdDate.toLocaleDateString()}`"
+                },
+                {
+                    "source": "text: `Last Updated: ${updatedDate.toLocaleDateString()}`",
+                    "target": "text: `Last Updated: ${updatedDate.toLocaleDateString()}`"
+                },
+                {
+                    "source": "text: \"Completion Progress\"",
+                    "target": "text: \"Completion Progress\""
+                },
+                {
+                    "source": "text: \"Effort Summary\"",
+                    "target": "text: \"Effort Summary\""
+                },
+                {
+                    "source": "text: \"Budget & Cost\"",
+                    "target": "text: \"Budget & Cost\""
+                },
+                {
+                    "source": "text: \"View Cost Report\"",
+                    "target": "text: \"View Cost Report\""
+                },
+                {
+                    "source": "textContent = `${formatCurrency(actual, currency)} / ${formatCurrency(total, currency)} (${percentage}%)`",
+                    "target": "textContent = `${formatCurrency(actual, currency)} / ${formatCurrency(total, currency)} (${percentage}%)`"
+                },
+                {
+                    "source": "text: \"Cost Report\"",
+                    "target": "text: \"Cost Report\""
+                },
+                {
+                    "source": "name : \"Unassigned\"",
+                    "target": "name : \"Unassigned\""
+                },
+                {
+                    "source": "text: \"No cost data available.\"",
+                    "target": "text: \"No cost data available.\""
+                },
+                {
+                    "source": "text: \"No tasks are over budget.\"",
+                    "target": "text: \"No tasks are over budget.\""
+                },
+                {
+                    "source": "text: `Est: ${formatCurrency(est, currency)}`",
+                    "target": "text: `Est: ${formatCurrency(est, currency)}`"
+                },
+                {
+                    "source": "text: `Act: ${formatCurrency(act, currency)}`",
+                    "target": "text: `Act: ${formatCurrency(act, currency)}`"
+                },
+                {
+                    "source": "text: `Over: ${formatCurrency(diff, currency)}`",
+                    "target": "text: `Over: ${formatCurrency(diff, currency)}`"
+                },
+                {
+                    "source": "text: \"Show All Projects\"",
+                    "target": "text: \"Show All Projects\""
+                },
+                {
+                    "source": "text: \"No projects found.\"",
+                    "target": "text: \"No projects found.\""
+                },
+                {
+                    "source": "text: \"No active project selected.\"",
+                    "target": "text: \"No active project selected.\""
+                },
+                {
+                    "source": "text: \"Today\"",
+                    "target": "text: \"Today\""
+                },
+                {
+                    "source": "text: \"Week\"",
+                    "target": "text: \"Week\""
+                },
+                {
+                    "source": "text: \"This Week\"",
+                    "target": "text: \"This Week\""
+                },
+                {
+                    "source": "text: \"No tasks due today\"",
+                    "target": "text: \"No tasks due today\""
+                },
+                {
+                    "source": "text: \"Tasks with today's date as their due date will appear here.\"",
+                    "target": "text: \"Tasks with today's date as their due date will appear here.\""
+                },
+                {
+                    "source": "text: \"All tasks filtered out\"",
+                    "target": "text: \"All tasks filtered out\""
+                },
+                {
+                    "source": "text: `${totalCount} task(s) due today are hidden by your current filters.`",
+                    "target": "text: `${totalCount} task(s) due today are hidden by your current filters.`"
+                },
+                {
+                    "source": "text: `${filtered.length} task${filtered.length !== 1 ? \"s\" : \"\"} due today`",
+                    "target": "text: `${filtered.length} task${filtered.length !== 1 ? \"s\" : \"\"} due today`"
+                },
+                {
+                    "source": "text: `${completedCount}/${totalCount} done`",
+                    "target": "text: `${completedCount}/${totalCount} done`"
+                },
+                {
+                    "source": "text: `${filtered.length} task${filtered.length !== 1 ? \"s\" : \"\"}`",
+                    "target": "text: `${filtered.length} task${filtered.length !== 1 ? \"s\" : \"\"}`"
+                },
+                {
+                    "source": "text: \"Filtered\"",
+                    "target": "text: \"Filtered\""
+                },
+                {
+                    "source": "text: \"Add Tasks to My Day\"",
+                    "target": "text: \"Add Tasks to My Day\""
+                },
+                {
+                    "source": "text: \"No due date\"",
+                    "target": "text: \"No due date\""
+                },
+                {
+                    "source": "textContent = \"No tasks matching your search.\"",
+                    "target": "textContent = \"No tasks matching your search.\""
+                },
+                {
+                    "source": "textContent = \"All tasks are either completed or already due today.\"",
+                    "target": "textContent = \"All tasks are either completed or already due today.\""
+                },
+                {
+                    "source": "name: \"Open Project Planner\"",
+                    "target": "name: \"Open Project Planner\""
+                },
+                {
+                    "source": "name: \"Open Board View\"",
+                    "target": "name: \"Open Board View\""
+                },
+                {
+                    "source": "name: \"Open Dependency Graph\"",
+                    "target": "name: \"Open Dependency Graph\""
+                },
+                {
+                    "source": "name: \"Open Timeline (Gantt) View\"",
+                    "target": "name: \"Open Timeline (Gantt) View\""
+                },
+                {
+                    "source": "name: \"Open Dashboard\"",
+                    "target": "name: \"Open Dashboard\""
+                },
+                {
+                    "source": "name: \"Open My Tasks\"",
+                    "target": "name: \"Open My Tasks\""
+                },
+                {
+                    "source": "name: \"Scan Daily Notes for Tagged Tasks\"",
+                    "target": "name: \"Scan Daily Notes for Tagged Tasks\""
+                },
+                {
+                    "source": "name: \"My Project\"",
+                    "target": "name: \"My Project\""
+                }
+            ]
+        }
+    }
+}
